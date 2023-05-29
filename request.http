@@ -1,0 +1,15 @@
+GET http://localhost:3000/f9e40906-a62c-49e7-b362-23894f178cb0 HTTP/1.1
+Content-Type:  application/json
+Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6ImY5ZTQwOTA2LWE2MmMtNDllNy1iMzYyLTIzODk0ZjE3OGNiMCIsImxvZ2luIjoidCIsImVtYWlsIjoibkB0ZXN0ZS5jb20iLCJpYXQiOjE2ODUzMzgzNzYsImV4cCI6MTY4NTMzODQzNn0.Ub1Bnkx_L_5Z8bOyJ5X_O0ph66U31lzHaYIcxrCtOQY
+
+
+###
+
+POST http://localhost:3000/sinin HTTP/1.1
+Content-Type:  application/json
+{
+    "login":{
+        "email":"joe@teste.com",
+        "password":"122345"
+    }
+}
